@@ -1,4 +1,4 @@
-##My keymap for DZ60 with arrow keys
+## My keymap for DZ60 with arrow keys
 Keyboard specs: 
     - PCB: DZ60 (Layout 5 if ordered preassembled)
     - Plate: Aluminum
@@ -8,11 +8,17 @@ Keyboard specs:
     - Stablizers: GMK Screw In
     - USB-C
 
-*All parts with the exception of keycaps can be found on KBDFans website
+*All parts with the exception of keycaps can be found on KBDFans website*
 
-###Base Layer
+To build:
+
+    make dz60:cpetz16
+
+### Base Layer
+---
+
 Layer 0
-QWERTY layout with arrow keys
+ANSI layout with arrow keys
 TASK is used to open task manager (using LCTL(LALT(KC_DEL)) chained together)
 2 Function layers represented by FN1, FN2 (shown below)
 
@@ -28,7 +34,9 @@ TASK is used to open task manager (using LCTL(LALT(KC_DEL)) chained together)
  | Ctrl |  Cmd  |  Alt  |              Space                | Menu | FN2 |  L  |  D  |  R  |
  `-----------------------------------------------------------------------------------------'
 
- ###Function Layer
+ ### Function Layer
+ ---
+
  Layer 1 - reached by FN1 key
  Contains: 
     - F keys
@@ -47,7 +55,9 @@ TASK is used to open task manager (using LCTL(LALT(KC_DEL)) chained together)
  |      |       | MUTE |               PLAY                | MYPC |      |     |     |     |
  `-----------------------------------------------------------------------------------------'
 
- ###Settings Layer
+ ### Settings Layer
+---
+
  Layer 2 - reached by FN2 key
  Contains:
     - RGB underglow settings
