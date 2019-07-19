@@ -1,3 +1,10 @@
+/*
+* @Author: cpetz16
+* @Date:   2019-07-19
+* @Last Modified by:   cpetz16
+* @Last Modified time: 2019-07-19
+*/
+
 #include QMK_KEYBOARD_H
 
 //TASK chains the keypresses needed to open task manager into a single key press
